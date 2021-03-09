@@ -139,7 +139,7 @@ describe('Registry Test', () => {
 
             expect(testCurve).to.eql(getTxCurve);
 
-        } catch (err: any) {
+        } catch (err) {
 
             console.log(signerOne._address + ': ' + 'Curve is already initiated');
         }
